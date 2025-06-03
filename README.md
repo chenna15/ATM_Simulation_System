@@ -13,7 +13,7 @@ Features:
 -> Deposit options featuring denominations like ₹100, ₹200, and ₹500.
 -> Withdrawals that come with a quick balance check.
 -> Easy access to your current account balance.
--> Used PreparedStatement to keep SQL injections at bay.
+-> Used PreparedStatement to  prevent SQL injection.
 -> Enhanced security through a combo of user ID and PIN validation.
 
 Logic Overview:
