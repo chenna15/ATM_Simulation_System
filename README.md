@@ -16,9 +16,9 @@ Features:
 -> Used PreparedStatement to keep SQL injections at bay.
 -> Enhanced security through a combo of user ID and PIN validation.
 
-Key Logic Overview:
+Logic Overview:
 ------------------
--> We’re using PreparedStatement for secure database queries.
+-> I used PreparedStatement for secure database queries.
 -> Deposit denominations help make the money flow feel more realistic.
 -> A combination of PIN and user ID is utilized to avoid duplicate access to records.
 
