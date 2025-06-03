@@ -7,14 +7,6 @@ Technologies Used:
 -> MySQL
 -> JDBC (Java Database Connectivity)
 
-Features:
---------
--> User PIN validation that locks out after three failed attempts.
--> Deposit options featuring denominations like ₹100, ₹200, and ₹500.
--> Withdrawals that come with a quick balance check.
--> Easy access to your current account balance.
--> Used PreparedStatement to  prevent SQL injection.
--> Enhanced security through a combo of user ID and PIN validation.
 
 Logic Overview:
 ------------------
@@ -22,6 +14,14 @@ Logic Overview:
 -> Deposit denominations help make the money flow feel more realistic.
 -> A combination of PIN and user ID is utilized to avoid duplicate access to records.
 
-Impact and Testing:
-------------------
--> I tested this project with over a **[1000]** user records in MySQL,It performed without a error. Showing 100% accuracy for balance checks, deposits, and withdrawals. Perfect for training or simulating real-time financial systems!
+Key Features:
+------------
+-> Secure Login: PIN-based login with a 3-attempt lockout mechanism.
+-> Used PreparedStatement to prevent SQL injection.
+-> Check balance.
+-> Deposit money using denomination input (₹100/₹200/₹500 notes).
+-> Withdraw money with sufficient balance checks.
+-> Security Enhancement: By validating User ID + PIN combination.
+-> Database Integration: Uses MySQL for storing and retrieving user account information.
+-> JDBC Integration: Handles all backend operations securely via Java Database Connectivity.
+-> Scalable Testing: Successfully tested with 1,000  different user records.
