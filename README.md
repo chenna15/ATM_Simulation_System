@@ -9,7 +9,7 @@ Technologies Used:
 
 Features:
 --------
--> User PIN validation that locks out after three failed attempts (pretty handy, right?)
+-> User PIN validation that locks out after three failed attempts.
 -> Deposit options featuring denominations like ₹100, ₹200, and ₹500.
 -> Withdrawals that come with a quick balance check.
 -> Easy access to your current account balance.
